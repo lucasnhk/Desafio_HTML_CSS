@@ -2,11 +2,6 @@ body {
 	background-color: #CECECE;
 }
 
-body div#interface {
-	background-color: white;
-}
-
-
 body a {
 	color: black;
 	text-decoration: none;
@@ -14,10 +9,10 @@ body a {
 }
 
 body div#interface {
+	background-color: white;
 	font-family: 'Montserrat', sans-serif;
-	width: 100%;
 	min-width: 280px;
-	max-width: 1400px;
+	max-width: 1600px;
 	height: auto;
 	margin: 0px auto;
 }
@@ -42,6 +37,10 @@ body div#interface {
 
 .absolute {
 	position: absolute;
+}
+
+hr {
+	color: #CECECE;
 }
 
 /*HEADER---------------------------------------------*/
@@ -70,10 +69,10 @@ header#header {
 	color: #FF7F00;
 }
 
-/*#header-center img {
+#header-center img {
 	display: inline-block;
-	float: right;
-}*/
+	position: absolute;
+}
 
 #header-center h1 {
 	color: white;
@@ -274,6 +273,14 @@ footer#footer div#direitos {
 	background-image: url("../_ico/twitter-hover.png");
 }
 
+@media (min-width: 400px) {
+	#header-center img {
+		max-width: 4%;
+		top: 88px; 
+		left: 30%;
+	}
+}
+
 
 @media (max-width: 480px) {
 
@@ -313,11 +320,13 @@ footer#footer div#direitos {
 		padding-top: 5px;
 	}
 
-	/*#header-center img {
-		max-width: 3%;
+	#header-center img {
+		max-width: 5%;
 		display: inline-block;
 		position: absolute;
-	}*/
+		top: 88px; 
+		left: 25%;
+	}
 
 	#header-center h1 {
 		font-size: 1em;
@@ -375,11 +384,6 @@ footer#footer div#direitos {
 		margin: auto 10px 10px 10px;
 	}
 
-/*	#front-end, #back-end {
-		margin: 20px auto;
-		padding-bottom: 10px;
-	}*/
-
 
 	.art figure {
 		margin: auto 5% 10px 5%;
@@ -406,9 +410,6 @@ footer#footer div#direitos {
 	}
 
 }
-
-
-
 
 
 @media (min-width: 481px) {
@@ -445,13 +446,11 @@ footer#footer div#direitos {
 		padding-top: 20px;
 	}
 
-	/*#header-center img {
-		position: absolute;
-		max-width: 5%;
-		left: 84px;
-		top: 97px;
-
-	}*/
+	#header-center img {
+		max-width: 4.5%;
+		top: 135px; 
+		left: 27%;
+	}
 
 	#header-center h1 {
 		font-size: 1.5em;
@@ -582,13 +581,11 @@ footer#footer div#direitos {
 		padding-top: 30px;	
 	}
 
-	/*#header-center img {
-		position: absolute;
+	#header-center img {
 		max-width: 5%;
-		left: 84px;
-		top: 97px;
-
-	}*/
+		top: 184px; 
+		left: 23%;
+	}
 
 	#header-center h1 {
 		font-size: 2.5em;
@@ -688,6 +685,13 @@ footer#footer div#direitos {
 
 }
 
+@media (min-width: 801px) {
+	#header-center img {
+		max-width: 5%;
+		top: 184px; 
+		left: 27%;
+	}
+}
 
 
 @media (min-width: 1064px) {
@@ -699,6 +703,12 @@ footer#footer div#direitos {
 	#header-center {
 		height: auto;
 		padding-top: 100px;	
+	}
+
+	#header-center img {
+		max-width: 100%;
+		top: 267px; 
+		left: 30%;
 	}
 
 	#header-center h1 {
@@ -760,6 +770,12 @@ footer#footer div#direitos {
 		height: auto;
 		padding-top: 150px;	
 	}
+	
+	#header-center img {
+		max-width: 100%;
+		top: 315px; 
+		left: 33%;
+	}
 
 	.art figure {
 		margin: auto 15px 10px 20px;
@@ -786,3 +802,13 @@ footer#footer div#direitos {
 		margin-left: 15px;
 	}
 }
+
+@media (min-width: 1400px) {
+	.art figure {
+		margin: auto 10px 10px 20px;
+		width: 22%;
+	}
+
+	.art figure:first-child {
+		margin-left: 25px;
+	}
