@@ -1,0 +1,788 @@
+body {
+	background-color: #CECECE;
+}
+
+body div#interface {
+	background-color: white;
+}
+
+
+body a {
+	color: black;
+	text-decoration: none;
+
+}
+
+body div#interface {
+	font-family: 'Montserrat', sans-serif;
+	width: 100%;
+	min-width: 280px;
+	max-width: 1400px;
+	height: auto;
+	margin: 0px auto;
+}
+
+.container {
+	padding: 0px;
+	margin: 0px;
+	display: block;
+}
+
+.border {
+	border: solid 1px black;
+}
+
+.border-inv {
+	border: hidden 1px;
+}
+
+.relative {
+	position: relative;
+}
+
+.absolute {
+	position: absolute;
+}
+
+/*HEADER---------------------------------------------*/
+
+header#header {
+	background-image: url("../_img/banner.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#header-top {
+	background-color: rgba(0,0,0,.5);
+}
+
+#menu ul li {		
+	display: inline-block;
+}
+
+#menu a {
+	color: white;
+	border-radius: 5px;
+	text-shadow: 1px 1px black;
+}
+
+#menu a:hover {
+	color: #FF7F00;
+}
+
+/*#header-center img {
+	display: inline-block;
+	float: right;
+}*/
+
+#header-center h1 {
+	color: white;
+	text-shadow: 1px 1px black;
+	display: block;
+}
+
+#header-center a {
+	color: white;
+	text-shadow: 1px 1px black;
+	border: solid 2px white;
+}
+
+#header-center a:hover {
+	color: #FF7F00;
+	border-color: #FF7F00;
+	box-shadow: 0px 0px 3px #FF7F00;
+	background-color: rgba(0,0,0,.5);
+}
+
+/*MAIN-----------------------------------------------*/
+
+#main section[id*="end"] h2 {
+		text-align: center;
+}
+
+#material p {
+	text-align: justify;
+}
+
+.art figure figcaption p {
+	color: white;
+}
+
+#front-end, #back-end {
+	margin: 20px auto;
+	padding-bottom: 10px;
+}
+
+#front-end h2 {
+	color: #FF7F00;
+	padding-top: 15px;
+}
+
+#back-end h2 {
+	color: #A92D3A;
+	padding-top: 15px;
+}
+
+.art figure {
+	border: outset;
+	max-height: 299px;
+}
+
+.art figure figcaption p {
+	color: white;
+}
+
+.art figure div {
+	background-color: white;
+	background-clip: padding-box;
+}
+
+.art figure div h3 {
+	margin: 5px auto 20px auto;
+}
+
+.art figure div a {
+	background-color: #FF7F00;
+	color: white;
+	border-radius: 5px;
+	letter-spacing: 1px;
+	padding: 5px 10px;
+}
+
+.art figure div a:hover {
+	color: #FF7F00;
+	background-color: white;
+	box-shadow: 0px 0px 3px #FF7F00;
+}
+
+
+.art figure[content="html"] {
+	background-color: #D65B43;
+}
+
+.art figure[content*="css"] {
+	background-color: #6CC5EB;
+}
+
+.art figure[content="js"] {
+	background-color: #F3CA4B;
+}
+
+.art figure[content="ruby"] {
+	background-color: #B21300;
+}
+
+.art figure[content="rails"] {
+	background-color: #A72D3A;
+}
+
+.art figure[content="heroku"] {
+	background-color: #8A2BFF;
+}
+
+.buttan {
+	background-color: black;
+	color: white;
+	padding: 5px 30px;
+	border-radius: 5px;
+	display: block;
+}
+
+.buttan:hover {
+	color: #FF7F00;
+	cursor: pointer;
+	border-style: solid;
+	border-color: #FF7F00;
+	background-color: white;
+}
+
+
+/*FOOTER---------------------------------------------*/
+
+footer#footer {
+	background-image: url("../_img/footer.jpeg");
+	background-repeat: repeat-x;
+	height: 150px;
+	margin-top: 10px;
+	margin-bottom: 0px;
+	padding-top: 5px;
+	clear: both;
+}
+
+footer#footer div#direitos {
+	color: white;
+	font-size: 14px;
+	text-shadow: 1px 1px black;
+	letter-spacing: 1px;
+}
+
+.social {
+	margin-bottom: 10px;
+}
+
+.social li {
+	display: inline-block;
+	margin: 10px;
+	padding: 0px;
+	text-align: center;
+}
+
+.social li a {
+	display: block;
+	width: 32px;
+	height: 32px;
+}
+
+#footer center > a {
+	font-size: 16px;
+	color: white;
+	text-shadow: 1px 1px black;
+	letter-spacing: 1px;
+}
+
+#footer center > a:hover {
+	font-size: 17px;
+	color: black;
+	text-shadow: 0px 0px 1px white;
+}
+
+.social li a[href*="facebook.com"] {
+	background-image: url("../_ico/facebook.png");
+}
+.social li a[href*="facebook.com"]:hover {
+	background-image: url("../_ico/facebook-hover.png");
+}
+
+.social li a[href*="github.com"] {
+	background-image: url("../_ico/github.png");
+}
+.social li a[href*="github.com"]:hover {
+	background-image: url("../_ico/github-hover.png");
+}
+
+.social li a[href*="plus.google.com"] {
+	background-image: url("../_ico/google+.png");
+}
+.social li a[href*="plus.google.com"]:hover {
+	background-image: url("../_ico/google+-hover.png");
+}
+
+.social li a[href*="twitter.com"] {
+	background-image: url("../_ico/twitter.png");
+}
+.social li a[href*="twitter.com"]:hover {
+	background-image: url("../_ico/twitter-hover.png");
+}
+
+
+@media (max-width: 480px) {
+
+	/*HEADER--------------------------------------------*/
+
+	header#header {
+		height: 185px;
+	}
+
+	#header-top {
+		height: 60px;
+		padding-top: 10px;
+	}
+
+	#header-top img {
+		max-width: 50%;
+		margin: 0px;
+	}
+
+	#menu ul {
+		margin-top: 5px;
+	}
+
+	#menu a {
+		font-size: 12px;
+		padding: 5px 10px 5px 10px;
+	}
+
+	#menu a:hover {
+		color: #FF7F00;
+		background-color: rgba(0,0,0,.5);
+
+	}
+
+	#header-center {
+		height: auto;
+		padding-top: 5px;
+	}
+
+	/*#header-center img {
+		max-width: 3%;
+		display: inline-block;
+		position: absolute;
+	}*/
+
+	#header-center h1 {
+		font-size: 1em;
+		margin-bottom: 15px;
+	}
+
+	#header-center a {
+		font-size: 13px;
+		padding: 3px 10px;
+		margin: auto 2px;
+	}
+
+
+	/*MAIN---------------------------------------------*/
+
+	#main {
+		padding: 0px 10px;
+	}
+
+	#main section {
+		box-shadow: 0px 0px 5px black;
+	}
+
+	#main section h2 {
+		letter-spacing: 2px;
+		font-size: 20px;
+	}
+
+	#main section#material {
+		margin-top: 10px;
+		padding-top: 1px;
+	}
+
+	#main section#material figure {
+		padding: 0;
+		margin: 20px auto;
+	}
+
+	#main section#material img {
+		max-width: 70%;
+	}
+
+	#material {
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+
+	#main #material h2 {
+		text-align: center;
+		color: #FF7F00;
+	}
+
+	#material p {
+		font-size: 14px;
+		margin: auto 10px 10px 10px;
+	}
+
+/*	#front-end, #back-end {
+		margin: 20px auto;
+		padding-bottom: 10px;
+	}*/
+
+
+	.art figure {
+		margin: auto 5% 10px 5%;
+	}
+
+
+	.art figure figcaption p {
+		font-size: 14px;
+		margin: 0px auto;
+	}
+
+	.art figure center div {
+		margin-top: 10px;
+		padding-top: 5px;
+		height: 80px;
+	}
+
+	.art figure div h3 {
+		font-size: 12px;
+	} 
+
+	.art figure div a {
+		font-size: 12px;
+	}
+
+}
+
+
+
+
+
+@media (min-width: 481px) {
+	header#header {
+		height: 300px;
+	}
+
+	#header-top {
+		height: 80px;
+		padding-top: 15px;
+	}
+
+	#header-top img {
+		max-width: 50%;
+		margin: 0px;
+	}
+
+	#menu ul {
+		margin-top: 15px;
+	}
+
+	#menu a {
+		font-size: 14px;
+		padding: 10px;
+		letter-spacing: 1px;
+	}
+
+	#menu a:hover {
+		background-color: rgba(0,0,0,.5);
+	}
+
+	#header-center {
+		height: auto;
+		padding-top: 20px;
+	}
+
+	/*#header-center img {
+		position: absolute;
+		max-width: 5%;
+		left: 84px;
+		top: 97px;
+
+	}*/
+
+	#header-center h1 {
+		font-size: 1.5em;
+		margin-bottom: 20px;
+	}
+
+	#header-center a {
+		font-size: 1em;
+		padding: 3px 10px;
+		margin: auto 2px;
+	}
+
+	/*MAIN---------------------------------------------*/
+
+	#main {
+		padding: 0px 10px;
+	}
+
+	#main section {
+		box-shadow: 0px 0px 5px black;
+	}
+
+	#main section h2 {
+		letter-spacing: 2px;
+		font-size: 20px;
+	}
+
+	#main section#material {
+		margin-top: 10px;
+		padding-top: 20px;
+	}
+
+	#main section#material figure {
+		padding: 0;
+	}
+
+	#main section#material img {
+		max-width: 70%;
+	}
+
+	#material {
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+	}
+
+	#main #material h2 {
+		text-align: center;
+		margin-top: 10px;
+		color: #FF7F00;
+	}
+
+	#material p {
+		font-size: 14px;
+		margin: auto 10px 10px 10px;
+	}
+
+	#front-end, #back-end {
+		padding-bottom: 10px;
+	}
+
+
+	.art figure {
+		margin: auto 5% 10px 5%;
+	}
+
+	.art figure figcaption p {
+		font-size: 14px;
+		margin: 0px auto;
+	}
+
+	.art figure div {
+		margin-top: 10px;
+		padding-top: 5px;
+		height: 80px;
+	}
+
+	.art figure div h3 {
+		font-size: 12px;
+	} 
+
+	.art figure div a {
+		font-size: 12px;
+	}
+
+}
+
+
+@media (min-width: 651px) {
+
+	/*HEADER--------------------------------------------*/
+
+	header#header {
+		height: 430px;
+	}
+
+	#header-top {
+		height: 100px;
+	}
+
+	#header-top img {
+		float: left;
+		margin: 30px auto auto 40px;
+	}
+
+	#menu {
+		float: right;
+		margin: 15px 30px auto auto;
+	}
+
+	#menu ul {
+
+	}
+
+	#menu a {
+		font-size: 18px;
+		padding: 10px;
+		border-radius: 2px;
+
+	}
+
+	#menu a:hover {
+		background-color: rgba(0,0,0,.1);
+		border-bottom: solid 2px #FF7F00;
+	}
+
+	#header-center {
+		height: auto;
+		padding-top: 30px;	
+	}
+
+	/*#header-center img {
+		position: absolute;
+		max-width: 5%;
+		left: 84px;
+		top: 97px;
+
+	}*/
+
+	#header-center h1 {
+		font-size: 2.5em;
+		margin-bottom: 25px;
+	}
+
+	#header-center a {
+		font-size: 20px;
+		padding: 10px 20px;
+		margin: auto 5px;
+	}
+
+	/*MAIN---------------------------------------------*/
+
+	#main {
+		padding: 0px 10px;
+	}
+
+	#main section {
+		box-shadow: 0px 0px 2px black;
+	}
+
+	#main section h2 {
+		letter-spacing: 2px;
+		font-size: 2em;
+	}
+
+
+	#material {
+		height: auto;
+		min-height: 240px;
+		padding-bottom: 10px;
+		margin-bottom: 20px;
+		padding-top: 5px;
+	}
+
+
+	#main section#material figure {
+		float: left;
+		padding: 0;
+		margin: 0px 20px 0px auto;
+	}
+
+
+	#main section#material img {
+		max-width: 100%;
+	}
+
+	#material p {
+		font-size: 14px;
+		margin: auto 20px 10px 10px;
+	}
+
+
+	#front-end, #back-end {
+		min-height: 700px;
+		padding: auto auto 10px 10px;
+	}
+
+	#back-end {
+		clear: left;
+	}
+
+
+	.art {
+		display: inline-block;
+		min-height: 650px;
+	}
+
+
+	.art figure {
+		margin: auto 20px 10px 20px;
+		width: 42%;
+		min-width: 235px;
+		float: left;
+	}
+
+	.art figure figcaption p {
+		font-size: 14px;
+	}
+
+	.art figure div {
+		margin-top: 10px;
+		padding-top: 5px;
+		height: 80px;
+	}
+
+	.art figure div h3 {
+		font-size: 12px;
+	} 
+
+	.art figure div a {
+		font-size: 12px;
+		letter-spacing: 1px;
+		padding: 5px 10px;
+	}
+
+}
+
+
+
+@media (min-width: 1064px) {
+	
+	header#header {
+		height: 660px;
+	}
+
+	#header-center {
+		height: auto;
+		padding-top: 100px;	
+	}
+
+	#header-center h1 {
+		font-size: 52px;
+		margin-bottom: 25px;
+	}
+
+	#header-center a {
+		font-size: 25px;
+	}
+
+	#main section h2 {
+		letter-spacing: 2px;
+		font-size: 35px;
+	}
+
+	#main #material h2 {
+		text-align: left;
+		letter-spacing: 3px;
+	}
+
+	#main #material p {
+		font-size: 16px;
+	}
+
+	#front-end, #back-end {
+		min-height: 400px;
+		padding: auto auto 10px 10px;
+	}
+
+
+	.art {
+		display: inline-block;
+		min-height: 340px;
+	}
+
+	.art figure {
+		margin: auto 10px 10px 10px;
+		width: 20%;
+		min-width: 235px;
+		float: left;
+	}
+
+}
+
+@media (min-width: 1116px) {
+	.art figure {
+		margin: auto 15px 10px 15px;
+	}
+}
+
+@media (min-width: 1200px) {
+
+	header#header {
+		height: 800px;
+	}
+
+	#header-center {
+		height: auto;
+		padding-top: 150px;	
+	}
+
+	.art figure {
+		margin: auto 15px 10px 20px;
+		width: 21%;
+	}
+
+	.art figure:first-child {
+		margin-left: 35px;
+	}
+}
+
+@media (min-width: 1280px) {
+
+	.art {
+		display: block;
+	}
+
+	.art figure {
+		margin: auto 15px 10px 15px;
+		width: 22%;
+	}
+
+	.art figure:first-child {
+		margin-left: 15px;
+	}
+}
