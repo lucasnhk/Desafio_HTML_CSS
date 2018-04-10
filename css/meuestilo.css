@@ -46,7 +46,7 @@ hr {
 /*HEADER---------------------------------------------*/
 
 header#header {
-	background-image: url("../_img/banner.jpg");
+	background-image: url("../img/banner.jpg");
 	background-size: 100%;
 	background-repeat: no-repeat;
 }
@@ -189,6 +189,7 @@ header#header {
 
 .buttan:hover {
 	color: #FF7F00;
+	cursor: pointer;
 	border-style: solid;
 	border-color: #FF7F00;
 	background-color: white;
