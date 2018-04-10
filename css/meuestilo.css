@@ -256,7 +256,7 @@ footer#footer div#direitos {
 	background-image: url("../ico/github.png");
 }
 .social li a[href*="github.com"]:hover {
-	background-image: url("../_ico/github-hover.png");
+	background-image: url("../ico/github-hover.png");
 }
 
 .social li a[href*="plus.google.com"] {
