@@ -189,7 +189,6 @@ header#header {
 
 .buttan:hover {
 	color: #FF7F00;
-	cursor: pointer;
 	border-style: solid;
 	border-color: #FF7F00;
 	background-color: white;
