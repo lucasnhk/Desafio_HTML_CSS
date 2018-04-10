@@ -198,7 +198,7 @@ header#header {
 /*FOOTER---------------------------------------------*/
 
 footer#footer {
-	background-image: url("../_img/footer.jpeg");
+	background-image: url("../img/footer.jpeg");
 	background-repeat: repeat-x;
 	height: 150px;
 	margin-top: 10px;
@@ -245,31 +245,31 @@ footer#footer div#direitos {
 }
 
 .social li a[href*="facebook.com"] {
-	background-image: url("../_ico/facebook.png");
+	background-image: url("../ico/facebook.png");
 }
 .social li a[href*="facebook.com"]:hover {
-	background-image: url("../_ico/facebook-hover.png");
+	background-image: url("../ico/facebook-hover.png");
 }
 
 .social li a[href*="github.com"] {
-	background-image: url("../_ico/github.png");
+	background-image: url("../ico/github.png");
 }
 .social li a[href*="github.com"]:hover {
 	background-image: url("../_ico/github-hover.png");
 }
 
 .social li a[href*="plus.google.com"] {
-	background-image: url("../_ico/google+.png");
+	background-image: url("../ico/google+.png");
 }
 .social li a[href*="plus.google.com"]:hover {
-	background-image: url("../_ico/google+-hover.png");
+	background-image: url("../ico/google+-hover.png");
 }
 
 .social li a[href*="twitter.com"] {
-	background-image: url("../_ico/twitter.png");
+	background-image: url("../ico/twitter.png");
 }
 .social li a[href*="twitter.com"]:hover {
-	background-image: url("../_ico/twitter-hover.png");
+	background-image: url("../ico/twitter-hover.png");
 }
 
 @media (min-width: 400px) {
